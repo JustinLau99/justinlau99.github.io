@@ -1,31 +1,5 @@
+{% include theme-styles.html %}
 <style>
-    :root {
-        color-scheme: light dark;
-        --text: #1a1a1a;
-        --muted: #555;
-        --border: #ddd;
-        --bg: #fafafa;
-        --link: #1565c0;
-    }
-
-    @media (prefers-color-scheme: dark) {
-        :root {
-            --text: #e8e8e8;
-            --muted: #aaa;
-            --border: #333;
-            --bg: #121212;
-            --link: #64b5f6;
-        }
-    }
-
-    body {
-        margin: 0;
-        font-family: system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-        line-height: 1.6;
-        color: var(--text);
-        background: var(--bg);
-    }
-
     main {
         max-width: 36rem;
         margin: 0 auto;
@@ -60,10 +34,23 @@
         margin-bottom: 0.35rem;
     }
 
+    .app-name a {
+        color: var(--text);
+        text-decoration: none;
+    }
+
+    .app-name a:hover {
+        color: var(--link);
+    }
+
     .app-meta {
         font-size: 0.9rem;
         color: var(--muted);
         margin-bottom: 0.75rem;
+    }
+
+    .app-meta:last-child {
+        margin-bottom: 0;
     }
 
     .doc-links {
@@ -73,10 +60,6 @@
     }
 
     .doc-links a {
-        color: var(--link);
-    }
-
-    a {
         color: var(--link);
     }
 </style>
