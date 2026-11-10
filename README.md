@@ -1,6 +1,8 @@
 # justinlau99.github.io
 
-GitHub Pages for **[justinlau99.github.io](https://justinlau99.github.io/)**: app legal pages and [AdMob `app-ads.txt`](https://justinlau99.github.io/app-ads.txt).
+Repo docs for the GitHub Pages site — the public homepage is **[index.html](index.html)** (dark UI), not this README.
+
+Live site: **[justinlau99.github.io](https://justinlau99.github.io/)** — app legal pages and [AdMob `app-ads.txt`](https://justinlau99.github.io/app-ads.txt).
 
 Published from the **`docs/`** folder on `main`.
 
