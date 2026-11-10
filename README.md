@@ -1,6 +1,8 @@
 # justinlau99.github.io
 
-GitHub Pages site published from the **`pages/`** folder on `main`.
+GitHub Pages site published from the **`docs/`** folder on `main`.
+
+> **Note:** GitHub only allows **`/` (root)** or **`/docs`** as the publish folder in Settings—not `pages` or other names. This folder holds the whole site (policies, home, `app-ads.txt`), not API documentation.
 
 | What | URL |
 |------|-----|
@@ -16,10 +18,10 @@ GitHub Pages site published from the **`pages/`** folder on `main`.
 
 ## Repo layout
 
-- `pages/index.html` — site home (dark theme)
-- `pages/App-Policies/` — per-app legal pages (`pages/_config.yml` sets `baseurl: /App-Policies`)
-- `pages/app-ads.txt` — AdMob publisher file at the domain root
-- `pages/_layouts/`, `pages/_includes/` — shared Jekyll layout and styles
+- `docs/index.html` — site home (dark theme)
+- `docs/App-Policies/` — per-app legal pages (`docs/_config.yml` sets `baseurl: /App-Policies`)
+- `docs/app-ads.txt` — AdMob publisher file at the domain root
+- `docs/_layouts/`, `docs/_includes/` — shared Jekyll layout and styles
 
 ## Contact
 
